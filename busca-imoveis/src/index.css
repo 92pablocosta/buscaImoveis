@@ -1,0 +1,33 @@
+.price-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.price-label {
+  display: inline-block;
+  width: max-content;
+  background: #ffffff !important;
+  padding: 8px 12px !important;
+  border-radius: 999px !important;
+  font-weight: 800 !important;
+  font-size: 13px !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+
+  border: 1px solid rgba(0,0,0,0.10) !important;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.22) !important;
+
+  transform: translate(-50%, -100%) !important;
+  cursor: pointer !important;
+  transition: transform .12s ease, box-shadow .12s ease !important;
+}
+
+.price-label:hover {
+  transform: translate(-50%, -112%) scale(1.05) !important;
+  box-shadow: 0 16px 32px rgba(0,0,0,0.28) !important;
+}
+
+.price-marker .price-label:hover {
+  transform: translate(-50%, -112%) scale(1.05) !important;
+  box-shadow: 0 16px 32px rgba(0,0,0,0.28) !important;
+}
